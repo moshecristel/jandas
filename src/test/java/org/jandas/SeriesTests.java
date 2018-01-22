@@ -8,9 +8,9 @@ public class SeriesTests {
 
     @Test
     public void testGetName() {
-        Series series = new Series("seriesA");
+        Series series = new Series("series1");
 
-        assertEquals("seriesA", series.getName());
+        assertEquals("series1", series.getName());
     }
 
 }
